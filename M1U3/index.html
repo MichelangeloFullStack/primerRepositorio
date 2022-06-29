@@ -11,54 +11,99 @@
         <h1>Jack Sparrow</h1>
     </header>
     <!--Esta etiqueta es para comentarios (no aparece en el explorador) y la de hr (abajo), se nmuestra como una línea en la página y ayuda a separar secciones-->
-    <hr>    
+    <hr>
+    <!--Se inserta imagen-->    
     <img src="img\cvJackSparrow.jpg" width="400" height="300"  alt="Imagen del capitan Jack Sparrow">
     <hr>
-        <h2>Edad</h2>
+    <h2>Edad</h2>
         <p>34 años.</p>
-        <hr>
-        <h2>Domicilio</h2>
+    <hr>
+    <h2>Domicilio</h2>
         <p>Puerto Madero, Ciudad Autónoma de Buenos Aires.</p>
-        <hr>
-        <h2>Series que me gustan.</h2>
-        <p>Las que me gustan son:</p>       
-        <ul>
-            <li>The Umbrella Academy.</li>
-            <li>The Walking Dead.</li>
-            <li>Cobra Kai.</li>
-            <li>Vikingos.</li>
-            <li>Teen Wolf.</li>
-            <li>The Witcher.</li>
-            <li>Los 100.</li>
-            <li>The Last Kingdom.</li>
-        </ul>  
-        <hr>
-        <h2>Peliculas que me gustan.</h2>
-        <p>Las que me gustan son:</p>
-        <ul>
-            <li>Piratas del Caribe: La maldición de la Perla Negra (2003).</li>
-            <li>Piratas del Caribe: El cofre del hombre muerto (2006).</li>
-            <li>Piratas del Caribe: En el fin del mundo (2007).</li>
-            <li>Piratas del Caribe: En mareas misteriosas (2011).</li>
-            <li>Piratas del Caribe: La venganza de Salazar (2017).</li>
+    <hr>
+    <h2>Series que me gustan.</h2>
+        
+    <!--Lista Ordenada-->     
+    <ol>
+        <li>The Umbrella Academy.</li>
+        <li>The Walking Dead.</li>
+        <li>Cobra Kai.</li>
+        <li>Vikingos.</li>
+        <li>Teen Wolf.</li>
+        <li>The Witcher.</li>
+        <li>Los 100.</li>
+        <li>The Last Kingdom.</li>
+    </ol>  
+    <hr>
+    <h2>Peliculas que me gustan.</h2>
+
+    <!--Lista NO Ordenada-->
+    <ul>
+        <li>Piratas del Caribe: La maldición de la Perla Negra (2003).</li>
+        <li>Piratas del Caribe: El cofre del hombre muerto (2006).</li>
+        <li>Piratas del Caribe: En el fin del mundo (2007).</li>
+        <li>Piratas del Caribe: En mareas misteriosas (2011).</li>
+        <li>Piratas del Caribe: La venganza de Salazar (2017).</li>
         </ul>
-        <hr>
-        <h2>Perfil.</h2>
-            <p>Soy un pirata decente, carismático, proactivo que sigue el Código.</p>
-            <p>Creo que los piratas también pueden ser buenas personas.</p>
-            <p>Demasiado altruista para ser un pirata, arriesgo mi propia vida para salvar a otros, especialmente a Will Turner y a Elizabeth Swann.</p>
-            <hr>
-        <h4>Si quieres contactarme, por favor completa el siguiente <a href="">Formulario</a></h4>
+    <hr>
+    <!--Se describe el perfil con el uso de parrafos-->
+    <h2>Perfil.</h2>
+        <p>Soy un pirata decente, carismático, proactivo que sigue el Código.</p>
+        <p>Creo que los piratas también pueden ser buenas personas.</p>
+        <p>Demasiado altruista para ser un pirata, arriesgo mi propia vida para salvar a otros, especialmente a Will Turner y a Elizabeth Swann.</p>
+    <hr>
+    <!--Se inserta tabla-->
+    <h2>Estudios realizados</h2>
+        <table>
+            <tr>
+                <th>Curso</th>
+                <th>Realizado</th>
+                <th>Año</th>
+            </tr>
+            <tr>
+                <td>Piratería</td>
+                <td>Si</td>
+                <td>2001</td>
+            </tr>
+            <tr>
+                <td>Rummelier</td>
+                <td>Si</td>
+                <td>2002</td>
+            </tr>
+            <tr>
+                <td>Secundaria</td>
+                <td>No</td>
+                <td>----</td>
+            </tr>
+        </table>
+    <hr>
+    <h4>Si quieres contactarme, por favor completa el siguiente <a href="">Formulario</a></h4>
+        <!--Se inserta formulario-->
+        <form action="/formulario"  method="post" >
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre" /> 
+            <br>
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" name="apellido" placeholder="Apellido"/>
+            <br>
+            <label for="email">Email</label>
+            <input type="text"id="email" name="email" placeholder="Email"/> 
+            <br>
+            <label for="comentarios">Comentarios.</label>
+            <br>
+            <textarea rows="5" cols="35" id="comentarios" name="comentarios" placeholder="Ingrese comntarios..."></textarea> 
+            <br>
+            <!--El tipo input, es un botón que envia la información, debe llevar el type="submit"-->
+            <input type="submit">
 
+            <!--El boton type="submit", envia la información ingresada por el usuario-->
+            <button type="submit">Tipo submit</button>
 
+            <!--El boton type="reset", limpia la información del formulario sin enviar lo ingresado-->
+            <button type="reset">Tipo reset</button>
 
-
-
-
-
+            <!--El boton type="button", no tiene funcionalidad hasta no configurarlo con JS-->
+            <button type="button">Tipo button</button>
+        </form>
 </body>
-
-
-
-
 </html>
