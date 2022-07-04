@@ -8,14 +8,14 @@
 </head>
 <body>
     <header>  
-        <h1>Jack Sparrow</h1>
-    </header>
-    <!--Esta etiqueta es para comentarios (no aparece en el explorador) y la de hr (abajo), se nmuestra como una línea en la página y ayuda a separar secciones-->
-    <hr>
-    <!--Se inserta imagen-->    
+        <h1 id="titulo">Jack Sparrow</h1>
+        <!--Se inserta imagen-->    
     <img src="img\cvJackSparrow.jpg" width="400" height="300"  alt="Imagen del capitan Jack Sparrow">
     <hr>
-    <h2>Edad</h2>
+    </header>
+
+    <section>
+        <h2>Edad</h2>
         <p>34 años.</p>
     <hr>
     <h2>Domicilio</h2>
@@ -53,56 +53,35 @@
     <hr>
     <!--Se inserta tabla-->
     <h2>Estudios realizados</h2>
-        <table>
-            <tr>
-                <th>Curso</th>
-                <th>Realizado</th>
-                <th>Año</th>
-            </tr>
-            <tr>
-                <td>Piratería</td>
-                <td>Si</td>
-                <td>2001</td>
-            </tr>
-            <tr>
-                <td>Rummelier</td>
-                <td>Si</td>
-                <td>2002</td>
-            </tr>
-            <tr>
-                <td>Secundaria</td>
-                <td>No</td>
-                <td>----</td>
-            </tr>
-        </table>
+    <table style="border: 1px solid black" >
+        <tr>
+            <th>Curso</th>
+            <th>Realizado</th>
+            <th>Año</th>
+        </tr>
+        <tr>
+            <td>Piratería</td>
+            <td>Si</td>
+            <td>2001</td>
+        </tr>
+        <tr>
+            <td>Rummelier</td>
+            <td>Si</td>
+            <td>2002</td>
+        </tr>
+        <tr>
+            <td>Secundaria</td>
+            <td>No</td>
+            <td>----</td>
+        </tr>
+    </table>
     <hr>
-    <h4>Si quieres contactarme, por favor completa el siguiente <a href="" target="_blank">Formulario</a></h4>
-        <!--Se inserta formulario-->
-        <form action="/formulario"  method="post" >
-            <label for="nombre">Nombre</label>
-            <input type="text" id="nombre" name="nombre" placeholder="Nombre" /> 
-            <br>
-            <label for="apellido">Apellido</label>
-            <input type="text" id="apellido" name="apellido" placeholder="Apellido"/>
-            <br>
-            <label for="email">Email</label>
-            <input type="email"id="email" name="email" placeholder="Email"/> 
-            <br>
-            <label for="comentarios">Comentarios.</label>
-            <br>
-            <textarea rows="5" cols="35" id="comentarios" name="comentarios" placeholder="Ingrese comntarios..."></textarea> 
-            <br>
-            <!--El tipo input, es un botón que envia la información, debe llevar el type="submit"-->
-            <input type="submit">
+    </section>
 
-            <!--El boton type="submit", envia la información ingresada por el usuario-->
-            <button type="submit">Tipo submit</button>
-
-            <!--El boton type="reset", limpia la información del formulario sin enviar lo ingresado-->
-            <button type="reset">Tipo reset</button>
-
-            <!--El boton type="button", no tiene funcionalidad hasta no configurarlo con JS-->
-            <button type="button">Tipo button</button>
-        </form>
+    <footer>
+        <a href="#titulo">Ir al comienzo.</a>
+        <h4>Si quieres contactarme, por favor completa el siguiente <a href="file:///C:/Users/mfiore/OneDrive%20-%20Practia/Escritorio/UTN/Diplomatura%20Desarrollo%20Web%20Full%20Stack/M1U3/cvFormulario.html" target="_blank">Formulario</a></h4>
+        <p align=" center">Copiright 2022</p>    
+    </footer>
 </body>
 </html>
