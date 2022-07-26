@@ -1,0 +1,83 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #E7F6F2;
+}
+
+header {
+    background-color: #2C3333;
+    color: #ffffff;
+    padding: 0.1rem;
+}
+
+header h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.fotoCV {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border: 5px #2C3333 solid;
+    border-radius: 5px;
+    box-shadow: 6px 7px 10px -2px rgba(0, 0, 0, 0.44);
+    -webkit-box-shadow: 6px 7px 10px -2px rgba(0, 0, 0, 0.44);
+    -moz-box-shadow: 6px 7px 10px -2px rgba(0, 0, 0, 0.44);
+    cursor: pointer;
+}
+
+.informacionPersonal {
+    background-color: #395B64;
+    color: white;
+    border-radius: 10px;
+    /* border: 5px #efefef solid; */
+    margin: 10px;
+    padding: 1rem 1rem;
+    box-shadow: 6px 7px 10px -2px rgba(0, 0, 0, 0.44);
+    -webkit-box-shadow: 6px 7px 10px -2px rgba(0, 0, 0, 0.44);
+    -moz-box-shadow: 6px 7px 10px -2px rgba(0, 0, 0, 0.44);
+}
+
+.titulos {
+    background-color: #395B64;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 1rem 1rem;
+    box-shadow: 6px 7px 10px -2px rgba(0, 0, 0, 0.44);
+    -webkit-box-shadow: 6px 7px 10px -2px rgba(0, 0, 0, 0.44);
+    -moz-box-shadow: 6px 7px 10px -2px rgba(0, 0, 0, 0.44);
+}
+
+.listas {
+    margin: auto;
+    list-style: none;
+    font-size: 20px;
+}
+
+.listas li {
+    background-color: #A5C9CA;
+    color: #2C3333;
+    padding: 5px;
+    width: auto;
+    height: auto;
+    margin: 5px;
+
+    
+    border: 2px #343434 solid;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #2C3333;
+    color: #ffffff;
+    text-align: center;
+}
+
+footer h4 {
+    text-align: left;
+}
