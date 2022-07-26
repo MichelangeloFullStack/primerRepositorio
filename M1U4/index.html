@@ -20,18 +20,20 @@
         </div>
     </header>
     <hr>
-    <!--Se inserta imagen-->
-    <section class="fotoCV">
-        <img src="img\cvJackSparrow.jpg" width="200" height="200" alt="Imagen del capitan Jack Sparrow">
-    </section>
-    <hr>
-    <section class="informacionPersonal">
-        <h2>Edad</h2>
-        <p class="texto">34 años.</p>
-        <hr>
-        <h2>Domicilio</h2>
-        <p class="texto">Puerto Madero, Ciudad Autónoma de Buenos Aires.</p>
-    </section>
+
+    <div class="fotoInfo">
+        <!--Se inserta imagen-->
+        <img class="fotoCV" src="img\cvJackSparrow.jpg" alt="Imagen del capitan Jack Sparrow">
+
+        <div class="informacionPersonal">
+            <h2>Edad</h2>
+            <p class="texto">34 años.</p>
+            <hr>
+            <h2>Domicilio</h2>
+            <p class="texto">Puerto Madero, Ciudad Autónoma de Buenos Aires.</p>
+        </div>
+
+    </div>
 
     <hr>
     <h2 class="titulos">Series que me gustan.</h2>
@@ -61,14 +63,14 @@
         <hr>
         <!--Se describe el perfil con el uso de parrafos-->
         <h2 class="titulos">Perfil.</h2>
-        <p>Soy un pirata decente, carismático, proactivo que sigue el Código.</p>
-        <p>Creo que los piratas también pueden ser buenas personas.</p>
-        <p>Demasiado altruista para ser un pirata, arriesgo mi propia vida para salvar a otros, especialmente a Will
+        <p id="perfil">Soy un pirata decente, carismático, proactivo que sigue el Código. <br><br>
+            Creo que los piratas también pueden ser buenas personas. <br><br>
+            Demasiado altruista para ser un pirata, arriesgo mi propia vida para salvar a otros, especialmente a Will
             Turner y a Elizabeth Swann.</p>
         <hr>
         <!--Se inserta tabla-->
         <h2 class="titulos">Estudios realizados</h2>
-        <table style="border: 1px solid black">
+        <table id="cursos">
             <tr>
                 <th>Curso</th>
                 <th>Realizado</th>
