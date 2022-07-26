@@ -13,7 +13,6 @@ header div {
     background-color: #2C3333;
     color: #ffffff;
     padding: 0.1rem;
-    position: fixed;
 }
 
 header h1 {
@@ -142,12 +141,12 @@ tr:hover {
 
 footer {
     background-color: #2C3333;
+    padding: 1rem;
     color: #ffffff;
-    text-align: center;
 }
 
-footer h4 {
-    text-align: left;
+footer p {
+    text-align: center;
 }
 
 a:link {
