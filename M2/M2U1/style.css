@@ -24,39 +24,38 @@ header h1 {
     max-width: max-content;
     height: 400px;
     margin: 0 auto;
+    overflow: auto;
+
     }
 
 img {
+    float: left;
     width: 380px;
-    border-radius: 10px;
     height: 380px;
-    margin: 10px 10px;
-    
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 10px;
     /* Sombra de la caja */
     box-shadow: 6px 7px 10px -2px rgba(0, 0, 0, 0.44);
     -webkit-box-shadow: 6px 7px 10px -2px rgba(0, 0, 0, 0.44);
     -moz-box-shadow: 6px 7px 10px -2px rgba(0, 0, 0, 0.44);
-    
-    float: left;
-    
-    
-    
     cursor: pointer;
 }
 
 .informacionPersonal {
     /* Color y fuente */
     background-color: #395B64;
+
     color: white;
     font-size: 26px;
     
     /* Ancho, borde, alto, margen y separación interna al margen. */
-    width: 800px;
+    width: 900px;
+    height: 380px;
+    box-sizing: border-box;
     border-radius: 10px;
-    height: 360px;
-    margin: 10px 10px;
     padding: 10px 30px;
-    
+    margin: 10px;
     
     float: left;
 
@@ -69,7 +68,7 @@ img {
     background-color: #395B64;
     color: white;
     border-radius: 10px;
-    margin: 10px;
+    margin: 20px;
     padding: 1rem 1rem;
     box-shadow: 6px 7px 10px -2px rgba(0, 0, 0, 0.44);
     -webkit-box-shadow: 6px 7px 10px -2px rgba(0, 0, 0, 0.44);
@@ -88,7 +87,7 @@ img {
     padding: 5px;
     width: auto;
     height: auto;
-    margin: 5px;
+    margin: 10px 20px;
     border: 2px #343434 solid;
     border-radius: 10px;
 }
@@ -103,6 +102,12 @@ img {
     box-shadow: 6px 7px 10px -2px rgba(0, 0, 0, 0.44);
     -webkit-box-shadow: 6px 7px 10px -2px rgba(0, 0, 0, 0.44);
     -moz-box-shadow: 6px 7px 10px -2px rgba(0, 0, 0, 0.44);
+
+    /* Se insertan columnas en en el perfil del CV */
+    columns: 2;
+    column-gap: 10px;
+    column-rule: #2C3333;
+    column-rule-style: solid;
 }
 
 #cursos {
@@ -136,13 +141,25 @@ tr:nth-child(even) {
 
 tr:hover {
     background-color: yellow;
-    /* cursor: pointer; */
 }
 
 footer {
     background-color: #2C3333;
     padding: 1rem;
     color: #ffffff;
+
+    /* Ingreso de gradiente */
+    background: linear-gradient(90deg,#2c3333 0%, #a5c9ca 170%);
+    background: -webkit-linear-gradient(90deg,#2c3333 0%, #a5c9ca 170%);
+    background: -moz-linear-gradient(90deg,#2c3333 0%, #a5c9ca 170%);
+}
+
+footer #irFormulario {
+    cursor: pointer;
+}
+
+footer #irAlComienzo {
+    cursor: pointer;
 }
 
 footer p {
@@ -154,7 +171,7 @@ a:link {
 }
 
 a:visited {
-    color: grey;
+    color: greenyellow;
 }
 
 a:hover {

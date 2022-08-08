@@ -1,0 +1,99 @@
+body {
+    background-color: #1f1f1f;
+}
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+}
+
+.caja {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+}
+
+.container1 {
+    background-color: white;
+    border: 3px solid red;
+    width: 750px;
+    height: 750px;
+    margin: 0 auto;
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: flex-end;
+}
+
+.item1 {
+    background-color: green;
+    color: white;
+}
+
+.item2 {
+    background-color: purple;
+    color: white;
+}
+
+.item3 {
+    background-color: orange;
+    color: white;
+}
+
+.container2 {
+    background-color: white;
+    border: 3px solid blue;
+    width: 750px;
+    height: 750px;
+    margin: 0 auto;
+    display: flex;
+
+    align-items: center;
+
+    flex-direction: row-reverse;
+}
+
+.item11 {
+    background-color: green;
+    color: white;
+}
+
+.item12 {
+    background-color: purple;
+    color: white;
+}
+
+.item13 {
+    background-color: orange;
+    color: white;
+}
+
+.container3 {
+    background-color: white;
+    border: 3px solid black;
+    margin: 0 auto;
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+.item121 {
+    background-color: green;
+    color: white;
+}
+
+.item122 {
+    background-color: purple;
+    color: white;
+}
+
+.item123 {
+    background-color: orange;
+    color: white;
+}

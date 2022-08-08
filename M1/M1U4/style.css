@@ -1,0 +1,178 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #E7F6F2;
+}
+
+header div {
+    width: 100%;
+    height: 150px;
+    background-color: #2C3333;
+    color: #ffffff;
+    padding: 0.1rem;
+}
+
+header h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.fotoInfo {
+    max-width: max-content;
+    height: 400px;
+    margin: 0 auto;
+    }
+
+img {
+    width: 380px;
+    border-radius: 10px;
+    height: 380px;
+    margin: 10px 10px;
+    
+    /* Sombra de la caja */
+    box-shadow: 6px 7px 10px -2px rgba(0, 0, 0, 0.44);
+    -webkit-box-shadow: 6px 7px 10px -2px rgba(0, 0, 0, 0.44);
+    -moz-box-shadow: 6px 7px 10px -2px rgba(0, 0, 0, 0.44);
+    
+    float: left;
+    
+    
+    
+    cursor: pointer;
+}
+
+.informacionPersonal {
+    /* Color y fuente */
+    background-color: #395B64;
+    color: white;
+    font-size: 26px;
+    
+    /* Ancho, borde, alto, margen y separación interna al margen. */
+    width: 800px;
+    border-radius: 10px;
+    height: 360px;
+    margin: 10px 10px;
+    padding: 10px 30px;
+    
+    
+    float: left;
+
+    box-shadow: 6px 7px 10px -2px rgba(0, 0, 0, 0.44);
+    -webkit-box-shadow: 6px 7px 10px -2px rgba(0, 0, 0, 0.44);
+    -moz-box-shadow: 6px 7px 10px -2px rgba(0, 0, 0, 0.44);
+}
+
+.titulos {
+    background-color: #395B64;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 1rem 1rem;
+    box-shadow: 6px 7px 10px -2px rgba(0, 0, 0, 0.44);
+    -webkit-box-shadow: 6px 7px 10px -2px rgba(0, 0, 0, 0.44);
+    -moz-box-shadow: 6px 7px 10px -2px rgba(0, 0, 0, 0.44);
+}
+
+.listas {
+    margin: auto;
+    list-style: none;
+    font-size: 20px;
+}
+
+.listas li {
+    background-color: #A5C9CA;
+    color: #2C3333;
+    padding: 5px;
+    width: auto;
+    height: auto;
+    margin: 5px;
+    border: 2px #343434 solid;
+    border-radius: 10px;
+}
+
+#perfil {
+    background-color: #A5C9CA;
+    color: #2C3333;
+    margin: 10px;
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 6px 7px 10px -2px rgba(0, 0, 0, 0.44);
+    -webkit-box-shadow: 6px 7px 10px -2px rgba(0, 0, 0, 0.44);
+    -moz-box-shadow: 6px 7px 10px -2px rgba(0, 0, 0, 0.44);
+}
+
+#cursos {
+    font-size: 20px;
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 6px 7px 10px -2px rgba(0, 0, 0, 0.44);
+    -webkit-box-shadow: 6px 7px 10px -2px rgba(0, 0, 0, 0.44);
+    -moz-box-shadow: 6px 7px 10px -2px rgba(0, 0, 0, 0.44);
+}
+
+th,
+td {
+    color: #2C3333;
+    padding: 5px;
+    text-align: center;
+    border: 1px #2C3333 solid;
+}
+
+th {
+    background-color: #A5C9CA;
+}
+
+td {
+    cursor: pointer;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(193, 193, 193);
+}
+
+tr:hover {
+    background-color: yellow;
+}
+
+footer {
+    background-color: #2C3333;
+    padding: 1rem;
+    color: #ffffff;
+
+    /* Ingreso de gradiente */
+    background: linear-gradient(90deg,#2c3333 0%, #a5c9ca 170%);
+    background: -webkit-linear-gradient(90deg,#2c3333 0%, #a5c9ca 170%);
+    background: -moz-linear-gradient(90deg,#2c3333 0%, #a5c9ca 170%);
+}
+
+footer #irFormulario {
+    cursor: pointer;
+}
+
+footer #irAlComienzo {
+    cursor: pointer;
+}
+
+footer p {
+    text-align: center;
+}
+
+a:link {
+    color: blueviolet;
+}
+
+a:visited {
+    color: greenyellow;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:active {
+    color: red;
+}
